@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar ul{
+    list-style-type: none;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:#000000;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar li{
+    float: left;
+}
