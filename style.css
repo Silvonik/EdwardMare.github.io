@@ -20,11 +20,11 @@ body {
     max-width: 95%;
     margin: 0 auto;
 
-    background-color: yellow;
+    background-color: #ffce1b;
     border-radius: 15px;
     padding: 10px, 25px;
 
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 
     z-index: 1000;
 }
@@ -45,8 +45,9 @@ body {
     white-space: nowrap;
 }
 .navbar a:hover{
-    background: #ffd900;
-    transform: translateY(-1.5px);
+    background: #d20a2e;
+    color: #ffffff;
+    transform: translateY(-1px);
 }
 
 @media (max-width: 768px){
@@ -65,11 +66,19 @@ body {
 
 /* Sections */
 section {
-    padding: 200px 150px;
+    padding: 150px 150px;
 }
 #home {
+    padding-top: 60px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items:center;
 }
+
+#home h1{
+    font-size: 150px;
+}
+#homepoint{
+    color: #d20a2e;
+}
+
