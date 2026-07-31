@@ -67,7 +67,22 @@ body {
 
 /* Sections */
 section {
-    padding: 150px 40px;
+    padding: 100px 40px;
+}
+section h2{
+    padding-top: 37px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #ffce1b;
+    margin: 15px auto 0;
+    border-radius: 999px;
 }
 
 @media (max-width: 768px){
@@ -78,7 +93,6 @@ section {
 
 /* Home */
 #home {
-    padding-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -86,7 +100,7 @@ section {
 }
 #home h1{
     font-size: 150px;
-    margin-bottom: 15px;
+    margin-bottom: -5px;
 }
 #homepoint{
     color: #d20a2e;
@@ -102,12 +116,30 @@ section {
     }
 
     #home h1{
-        font-size: 120px;
-        margin-bottom: 5px;
+        font-size: 110px;
+        margin-bottom: -15px;
     }
     #home p{
-        font-size: 30px;
-        white-space: nowrap;
+        font-size: 20px;
     }
+}
 
+/* About Me */
+#about button{
+    margin-top:  70px;
+    padding: 10px 10px;
+    background-color:#d20a2e;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    border-color: #d20a2e;
+    transition: 0.3s ease;
+}
+#about button:hover{
+    font-size: 27px;
+    font-weight: 500;
+}
+#about p{
+    font-size: 20px;
 }
