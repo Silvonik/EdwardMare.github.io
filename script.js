@@ -1,6 +1,7 @@
 const randomFacts = [
     "I live in Ireland",
-    "I play Basketball"
+    "I play Basketball",
+    "STEM",
 ];
 
 const fact = document.getElementById("fact");
