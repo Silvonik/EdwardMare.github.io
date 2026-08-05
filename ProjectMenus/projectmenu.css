@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
