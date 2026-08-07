@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -53,15 +54,16 @@ body {
 
 @media (max-width: 768px){
     .navbar ul {
-        gap: 3px;
+        gap: 0px;
     }
     .navbar a {
-        padding: 12px 16px;
-        font-size: 14px;
+        padding: 10px 10px;
+        font-size: 13px;
     }
     .navbar {
         top: 30px;
         position: sticky;
+        max-width: 95%;
     }
 }
 
@@ -72,7 +74,7 @@ section {
     padding: 95px 40px;
 }
 section h2{
-    font-size: 70px;
+    font-size: clamp(45px, 10vw, 70px);
     font-weight: bolder;
     white-space: nowrap;
 }
@@ -184,7 +186,7 @@ section h2::after {
 
 @media (max-width:768px){
     #randomtitle{
-    font-size: 28px;
+    font-size: 25px;
     margin: 0 10px 0 10px;
     }
     #randomtitle::after {
@@ -194,8 +196,8 @@ section h2::after {
     
     .randomcard p{
     padding-top: 25px;
-    white-space: nowrap;
-    font-size: 20px;
+    white-space: normal;
+    font-size: 18px;
     }
 
     #about button{
