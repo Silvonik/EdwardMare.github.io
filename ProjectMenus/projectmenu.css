@@ -10,3 +10,164 @@ body {
     font-size: 25px;
     text-align: center;
 }
+
+body h2{
+    font-size: clamp(45px, 10vw, 70px);
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+body h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #ffce1b;
+    margin: 15px auto 0;
+    border-radius: 999px;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 25px;
+
+    width: fit-content;
+    max-width: 95%;
+    margin: 0 auto;
+
+    background-color: #ffce1b;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+    z-index: 1000;
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a{
+    display: block;
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+.navbar a:hover{
+    background: #d20a2e;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px){
+    .navbar ul {
+        gap: 0px;
+    }
+    .navbar a {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .navbar {
+        top: 30px;
+        position: sticky;
+        max-width: 95%;
+    }
+}
+
+/* items */
+.games-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    max-width: 630px;
+    margin: 0 auto;
+}
+.games-container a{
+    text-decoration: none;
+    color: #000000;
+}
+.gamesItem{
+
+    box-sizing: border-box;
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: #ffffff;
+
+    border: 8px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    transition: 0.25s;
+}
+.gamesItem:hover{
+    transform: translateY(-6px);
+    border: 8px solid #ffce1b;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.gamesText{
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    height: 50px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+}
+.gamesText h3{
+    font-size: clamp(14px, 2vw, 19px);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Each items Images*/
+#Gary{
+    background-image: url("../Images/Games/Gary.png");
+    background-size: cover;
+    background-position: center;
+}
+#ColorSwitch{
+    background-image: url("../Images/Games/ColorSwitch.png");
+    background-size: cover;
+    background-position: center;
+}
+#Yummy{
+    background-image: url("../Images/Games/Yummy.png");
+    background-size: cover;
+    background-position: center;
+}
+#Step{
+    background-image: url("../Images/Games/Step.png");
+    background-size: cover;
+    background-position: center;
+}
+#Key{
+    background-image: url("../Images/Games/Key.png");
+    background-size: cover;
+    background-position: center;
+}
+#BestCar{
+    background-image: url("../Images/Games/BestCar.png");
+    background-size: cover;
+    background-position: center;
+}
