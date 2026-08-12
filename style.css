@@ -189,7 +189,7 @@ section h2::after {
 
 @media (max-width:768px){
     #randomtitle{
-    font-size: 22px;
+    font-size: 18px;
     margin: 0 15px 0 15px;
     }
     #randomtitle::after {
@@ -252,7 +252,7 @@ section h2::after {
 
 .projectText{
     background-color: #ffffff;
-    width: 50%;
+    width: 70%;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 
@@ -277,6 +277,11 @@ section h2::after {
     background-size: cover;
     background-position: center;
 }
+#electronicsImg{
+    background-image: url("Images/ProjectGroupsImg/Electronics.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* Contact */
@@ -289,6 +294,7 @@ section h2::after {
 .contactButton{
     display: inline-block;
     margin-top: 25px;
+    margin-top: 10px;
     padding: 10px 16px;
     background-color:#d20a2e;
     color: #ffffff;
@@ -305,4 +311,9 @@ section h2::after {
     font-size: 27px;
     font-weight: 500;
     cursor: pointer;
+}
+@media (max-width:768px){
+    #Small{
+        font-size: 15px;
+    }
 }
