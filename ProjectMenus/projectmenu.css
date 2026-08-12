@@ -141,6 +141,18 @@ body h2::after {
     text-align: center;
 }
 
+#footer{
+    color: #b9b9b9;
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    #footer{
+    color: #b9b9b9;
+    font-size: 15px;
+    }
+}
+
 /* Each items Images*/
 #Gary{
     background-image: url("../Images/Games/Gary.png");
