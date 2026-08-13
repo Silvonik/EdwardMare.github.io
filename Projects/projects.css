@@ -105,6 +105,8 @@ h2::after {
 #footer{
     color: #b9b9b9;
     font-size: 20px;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width:768px){
@@ -129,12 +131,12 @@ h9{
     max-width: 90%;
     margin-top: 35px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
 .Card{
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     margin: 25px auto 0px auto;
     width: 1200px;
     max-width: 90%;
