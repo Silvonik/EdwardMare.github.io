@@ -21,10 +21,18 @@ body h1::after{
     width: 80px;
     height: 5px;
     background-color: #ffce1b;
-    margin: 15px auto 0;
+    margin: 15px auto -15px;
     border-radius: 999px;
 }
 
+.description{
+    font-size: 22px;
+    flex-wrap: wrap;
+    margin: 40px auto 40px auto;
+    width: 850px;
+    max-width: 85%;
+}
+    
 h2{
     font-size: clamp(25px, 10vw, 50px);
     font-weight: bolder;
@@ -107,20 +115,21 @@ h2::after {
 }
 
 #divder{
-    color: #d20a2e;
+    color: #ffce1b;
 }
 
 h9{
+    margin-right: 15px;
     font-weight: 600;
     font-size: 29px;
 }
 
 #main-image{
-    height: 350px;
+    width: 1200px;
+    max-width: 90%;
     margin-top: 35px;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-
 }
 .Card{
     background-color: #ffffff;
@@ -154,6 +163,12 @@ h9{
     justify-content: flex-end;
     align-items:center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width:768px){
+    .pictures{
+        width: 250px;
+    }
 }
 
 .links-container{

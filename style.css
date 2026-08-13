@@ -96,25 +96,63 @@ section h2::after {
 }
 
 
+.links-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-right: 70px;
+}
+
+.link img{
+    width: 100%;    
+    max-width: 120px;     
+    height: auto;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+.link img:hover{
+    max-width: 140px;
+}
 
 /* Home */
 #home {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    margin-left: 100px;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin:0;
 }
+#home .left {
+    flex: 1;
+    max-width: 600px;
+}
+#home .right {
+    flex: 1;
+    max-width: 600px;
+}
+
 #home h1{
     font-size: 180px;
     margin-bottom: -20px;
 }
 #home p{
-    margin-left: -75px;
+    margin-left: 0;
 }
 #homepoint{
     color: #d20a2e;
     margin-left: -30px;
+}
+.HomeImg{
+    display: block;
+    margin: 0;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-top: 100px;
 }
 
 @media (max-width:768px){
@@ -132,6 +170,19 @@ section h2::after {
     }
     #home p{
         margin-left: auto;
+    }
+    .HomeImg{
+        margin-top: 0px;
+    }
+
+    .links-container{
+        margin-right: 0px;
+    }
+    .link img{
+        max-width: 80px;   
+    }
+    .link img:hover{
+        max-width: 100px;
     }
 }
 
@@ -265,6 +316,8 @@ section h2::after {
 
     transition: 0.3s;
 }
+
+
 
 /* Each Projects Images*/
 #gamesImg{
