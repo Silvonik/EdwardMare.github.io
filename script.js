@@ -1,7 +1,7 @@
 const randomFacts = [
-    "I live in Ireland",
-    "I play Basketball",
-    "STEM",
+    "I enjoy playing Basketball.",
+    "My first ever game was a Roblox game called 'Survive Spongebob The Killer'.",
+    "My first business was where me and my friend made paintings and sold them on the street.",
 ];
 
 const fact = document.getElementById("fact");

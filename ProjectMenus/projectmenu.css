@@ -190,7 +190,13 @@ body h2::after {
 }
 
 #edwardcom{
-    background-image: url("../Images/Games/");
+    background-image: url("../Images/Websites/Edwardmarepic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#RemoteLight{
+    background-image: url("../Images/Electronics/Remote\ Light.png");
     background-size: cover;
     background-position: center;
 }

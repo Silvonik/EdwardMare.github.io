@@ -232,7 +232,7 @@ section h2::after {
     height: 4.5px;
 }
 .randomcard p{
-    white-space: nowrap;
+    white-space: wrap;
     font-size: 25px;
 }
 
