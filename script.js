@@ -2,6 +2,10 @@ const randomFacts = [
     "I enjoy playing Basketball.",
     "My first ever game was a Roblox game called 'Survive Spongebob The Killer'.",
     "My first business was where me and my friend made paintings and sold them on the street.",
+    "The first programming language I learned was Lua, but I wasn't any good.",
+    "My favourite video game is Call Of Duty Infinite Warfare.",
+    "My favourite subject in school is Business and Science.",
+    "I have a folder full of unfinished projects."
 ];
 
 const fact = document.getElementById("fact");
