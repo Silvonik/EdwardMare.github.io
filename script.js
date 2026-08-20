@@ -4,8 +4,7 @@ const randomFacts = [
     "My first business was where me and my friend made paintings and sold them on the street.",
     "The first programming language I learned was Lua, but I wasn't any good.",
     "My favourite video game is Call Of Duty Infinite Warfare.",
-    "My favourite subject in school is Business and Science.",
-    "I have a folder full of unfinished projects."
+    "My favourite subject in school is Business and Science."
 ];
 
 const fact = document.getElementById("fact");

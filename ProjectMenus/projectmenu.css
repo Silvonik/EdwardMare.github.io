@@ -200,3 +200,9 @@ body h2::after {
     background-size: cover;
     background-position: center;
 }
+
+#ModdedGBA{
+    background-image: url("../Images/Electronics/Modded.jpg");
+    background-size: cover;
+    background-position: center;
+}
