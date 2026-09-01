@@ -206,3 +206,9 @@ body h2::after {
     background-size: cover;
     background-position: center;
 }
+
+#dublinos{
+    background-image: url("../Images/Websites/DublinOS.png");
+    background-size: cover;
+    background-position: center;
+}

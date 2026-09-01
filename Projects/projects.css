@@ -157,6 +157,9 @@ h9{
     gap: 30px;
     flex-wrap: wrap;
 }
+.gallery-container p{
+    width: 100%;
+}
 .pictures{
     border-radius: 15px;
     width: 300px;
@@ -197,7 +200,7 @@ h9{
     transition: 0.3s;
 }
 .projectlink img:hover{
-    max-width: 140px; 
+    transform: translateY(-6px); 
 }
 .projectlink:hover{
     color: #000000;

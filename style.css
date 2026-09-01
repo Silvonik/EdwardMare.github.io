@@ -113,7 +113,7 @@ section h2::after {
     transition: 0.3s;
 }
 .link img:hover{
-    max-width: 140px;
+    transform: translateY(-5px);
 }
 
 /* Home */
@@ -139,7 +139,7 @@ section h2::after {
     margin-bottom: -20px;
 }
 #home p{
-    margin-left: 0;
+    margin-left: -60px;
 }
 #homepoint{
     color: #d20a2e;
@@ -182,7 +182,7 @@ section h2::after {
         max-width: 80px;   
     }
     .link img:hover{
-        max-width: 100px;
+        transform: translateY(-3px);
     }
 }
 
@@ -204,7 +204,7 @@ section h2::after {
     transition: 0.3s ease;
 }
 #about button:hover{
-    font-size: 27px;
+    transform: translateY(-2px);
     font-weight: 500;
     cursor: pointer;
 }
@@ -258,7 +258,7 @@ section h2::after {
         font-size: 20px;
     }
     #about button:hover{
-        font-size: 22px;
+        transform: translateY(-2px);
     }
 }
 
@@ -361,7 +361,7 @@ section h2::after {
 }
 
 .contactButton:hover{
-    font-size: 27px;
+    transform: translateY(-2px);
     font-weight: 500;
     cursor: pointer;
 }
