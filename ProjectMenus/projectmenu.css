@@ -212,3 +212,9 @@ body h2::after {
     background-size: cover;
     background-position: center;
 }
+
+#MacroPad{
+    background-image: url("../Images/Electronics/Hackpad.jpg");
+    background-size: cover;
+    background-position: center;
+}
